@@ -165,7 +165,7 @@
 - LCS have 2 parameters which are the given two strings, hence it's 2-D memoization/cache
 - Base case is the end of the strings
 
-| \ | a | b | c | |
+| \ | a | b | c |  |
 | --- | --- | --- | --- | --- |
 | a |  |  |  | x |
 | c |  |  |  | x |
