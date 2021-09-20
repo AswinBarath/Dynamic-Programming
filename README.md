@@ -118,6 +118,7 @@
 
 - Example: `coins = [1, 2, 3]		target = 5`
 - We can only use the coins 0 or 1 times (0/1 Knapsack)
+- The goal of the problem is to sum up for the target value
 - We have 2 parameters which are coins & target, hence it's 2-D memoization/cache
 
 | \ | Target | 5 | 4 | 3 | 2 | 1 | 0 |
@@ -136,6 +137,18 @@
 
 ### Unbounded Knapsack pattern
 
+- Example: `coins = [1, 2, 3]		target = 5`
+- Similar to 0/1 Knapsack problem but the only difference is we can choose coins for infinte amount of times (Unbounded knapsack)
+- The goal of the problem (coins example) is still the same where we need to sum up for the target value
+- We have 2 parameters which are coins & target, hence it's 2-D memoization/cache
+
+| \ | Target | 5 | 4 | 3 | 2 | 1 | 0 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Coins | 1 |  |  |  |  |  | T |
+| | 2 |  |  |  |  |  | T |
+| | 3 |  |  |  |  |  | T |
+
+
 #### Problems:
 
 - [Coin Change](https://leetcode.com/problems/coin-change/)
@@ -145,7 +158,18 @@
 ---
 
 
-### Longest Common Subsequence pattern
+### Longest Common Subsequence (LCS) pattern
+
+- Example: ` "abc" , "ace" `
+- Subsequence is choice of characters stricly following order and not consecutive
+- LCS have 2 parameters which are the given two strings, hence it's 2-D memoization/cache
+
+| \ | a | b | c |
+| --- | --- | --- | --- |
+| a |  |  |  | x |
+| c |  |  |  | x |
+| e |  |  |  | x |
+|  | x | x | x | 0 |
 
 #### Problems:
 
@@ -153,6 +177,8 @@
 - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [Edit Distance](https://leetcode.com/problems/edit-distance/)
 - [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
+- [Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)
+- [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
 
 ---
 
