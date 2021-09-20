@@ -15,7 +15,7 @@
 	- [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 	- [x] [House Robber](https://leetcode.com/problems/house-robber/)
 	- [ ] [Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/) 
-	- [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+	- [x] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 	- [ ] [Target Sum](https://leetcode.com/problems/target-sum/)
 	- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 	- [ ] [Coin Change II](https://leetcode.com/problems/coin-change-2/)
