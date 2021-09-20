@@ -121,7 +121,7 @@
 - We have 2 parameters which are coins & target, hence it's 2-D memoization/cache
 
 | \ | Target | 5 | 4 | 3 | 2 | 1 | 0 |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 
 | Coins | 1 |  |  |  |  |  | T |
 | --- | --- | --- | --- | --- | --- | --- |
