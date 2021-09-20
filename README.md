@@ -132,6 +132,10 @@
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [Target Sum](https://leetcode.com/problems/target-sum/)
 
+#### Partition Equal Subset Sum `Facebook`, `Microsoft`, `Uber`, `Yahoo`
+
+
+
 ---
 
 
