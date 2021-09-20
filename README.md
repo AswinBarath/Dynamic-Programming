@@ -186,6 +186,11 @@
 
 ### Palindromes (pattern)
 
+- Example: ` "racecar" `
+- We can choose a substring like `"e"` and expand outwards to check other substrings
+- Along the way we can store the result in an array (1-D memoization/cache)
+- Similarly we can choose two characters `"ce"` for even length palindromes
+
 #### Problems:
 
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
