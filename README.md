@@ -9,6 +9,7 @@
 ## Task list
 
 - [x] [Introduction](#what-is-dynamic-programming)
+- [ ] [DP Patterns](#DP-patterns)
 - [ ] Problems
 	- [x] [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 	- [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
@@ -70,6 +71,15 @@
 
 ### Fibonacci Numbers Pattern
 
+- F(0) = 0, F(1) = 1
+- F(n) = F(n-1) + F(n-2) -> {for n >= 2}
+- Example: Fibonacci(6)
+
+| F(6) | F(5) | F(4) | F(3) | F(2) | F(1) | F(0) |
+| ---  | ---  | ---  | ---  | ---  | ---  | ---  |
+
+- We have 1 parameter which is the prevoius sum, hence it's 1-D memoization/cache
+
 #### Problems:
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
@@ -81,13 +91,6 @@
 
 
 #### Fibonacci Number
-
-- F(0) = 0, F(1) = 1
-- F(n) = F(n-1) + F(n-2) -> {for n >= 2}
-- Example: Fibonacci(6)
-
-| F(6) | F(5) | F(4) | F(3) | F(2) | F(1) | F(0) |
-| ---  | ---  | ---  | ---  | ---  | ---  | ---  |
 
 - Approach:
 	- Use two recursive calls for finding F(n-1) and F(n-2)
@@ -112,6 +115,19 @@
 
 
 ### Zero / One Knapsack pattern
+
+- Example: `coins = [1, 2, 3]		target = 5`
+- We can only use the coins 0 or 1 times (0/1 Knapsack)
+- We have 2 parameters which are coins & target, hence it's 2-D memoization/cache
+
+| \ | Target | 5 | 4 | 3 | 2 | 1 | 0 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Coins | 1 |  |  |  |  |  | T |
+| --- | --- | --- | --- | --- | --- | --- |
+| | 2 |  |  |  |  |  | T |
+| --- | --- | --- | --- | --- | --- | --- |
+| | 3 |  |  |  |  |  | T |
+| --- | --- | --- | --- | --- | --- | --- |
 
 #### Problems:
 
