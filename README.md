@@ -8,25 +8,21 @@
 
 ## Task list
 
-- [x] [Introduction](#what-is-dynamic-programming?)
+- [x] [Introduction](#what-is-dynamic-programming)
 - [ ] Problems
 	- [x] [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 	- [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 	- [x] [House Robber](https://leetcode.com/problems/house-robber/)
 	- [ ] [Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/) 
-
 	- [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 	- [ ] [Target Sum](https://leetcode.com/problems/target-sum/)
-
 	- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 	- [ ] [Coin Change II](https://leetcode.com/problems/coin-change-2/)
 	- [ ] [Minimum Cost for Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
-
 	- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 	- [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 	- [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/)
 	- [ ] [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
-
 	- [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 	- [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 	- [ ] [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
