@@ -1,10 +1,37 @@
 # Dynamic Programming
 
-<p>
-<img src="">
-</p>
+Problems based on the Dynamic Programming approach
 
-<hr />
+## SDE Sheet problems on Dynamic Programming
+
+[Sheet Link](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+
+### Day 25
+
+| Completion Status | Problems on Arrays | Explanation | Solution |
+| --- | --- | --- | --- |
+| 🔃 | [Max Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [0-1 Knapsack](https://leetcode.com/problems/ones-and-zeroes/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Maximum sum increasing subsequence](https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Matrix Chain Multiplication](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+
+### Day 26
+
+| Completion Status | Problems on Arrays | Explanation | Solution |
+| --- | --- | --- | --- |
+| 🔃 | [Maximum sum path in the matrix](https://leetcode.com/problems/minimum-path-sum/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Coin change](https://leetcode.com/problems/coin-change/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Rod Cutting](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Egg Dropping](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Word Break](https://practice.geeksforgeeks.org/problems/word-break1352/1) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Palindrome Partitioning](https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Maximum profit in Job scheduling](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+
+---
 
 ## Task list
 
