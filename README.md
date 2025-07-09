@@ -51,6 +51,7 @@ Problems based on the Dynamic Programming approach
 		- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 		- [ ] [Coin Change II](https://leetcode.com/problems/coin-change-2/)
 		- [ ] [Minimum Cost for Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
+		- [x] [Rod Cutting](#rod-cutting)
 	- [ ] [Longest Common Subsequence pattern](#longest-common-subsequence-lcs-pattern)
 		- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 		- [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
@@ -186,12 +187,24 @@ Problems based on the Dynamic Programming approach
 | | 2 |  |  |  |  |  | T |
 | | 3 |  |  |  |  |  | T |
 
-
 #### Problems:
 
 - [Coin Change](https://leetcode.com/problems/coin-change/)
 - [Coin Change II](https://leetcode.com/problems/coin-change-2/)
 - [Minimum Cost for Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
+- [Rod Cutting](#rod-cutting)
+
+---
+
+### Rod Cutting `Google`
+
+- **Pattern:** Unbounded Knapsack
+- **Description:** Given a rod of length `n` and an array of prices for each length, determine the maximum value obtainable by cutting up the rod and selling the pieces. You can cut the rod in as many pieces as you want, and you can use each length multiple times (hence, unbounded).
+- **State:** `dp[n]` = max value for rod of length `n`
+- **Transition:** For each possible cut `i` (from 1 to n):
+    - `dp[n] = max(dp[n], price[i-1] + dp[n-i])`
+- **Base case:** `dp[0] = 0`
+- **Why Unbounded?** You can use each cut length as many times as you want, just like coins in the coin change problem.
 
 ---
 
